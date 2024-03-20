@@ -1,0 +1,32 @@
+"examples": [
+    {
+        model: "playgroundai/playground-v2.5-1024px-aesthetic",
+        prompt: "Astronaut in a jungle, cold color palette, muted colors, detailed, 8k",
+        steps: 25,
+        guidance: 3.0,
+    },
+    {
+        model: "SG161222/RealVisXL_V4.0_Lightning"
+        prompt: "Astronaut in a jungle, cold color palette, muted colors, detailed, 8k",
+        steps: 4,
+        guidance: 1.5,
+    },
+    {
+        model: "SG161222/RealVisXL_V4.0"
+        prompt: "Astronaut in a jungle, cold color palette, muted colors, detailed, 8k",
+        steps: 20,
+        guidance: 5.0,
+    },
+    {
+        model: "stabilityai/stable-diffusion-xl-base-1.0",
+        prompt: "Astronaut in a jungle, cold color palette, muted colors, detailed, 8k",
+        steps: 25,
+        guidance: 7.5,
+    },
+    {
+        model: "stabilityai/stable-diffusion-2-1",
+        prompt: "an astronaut riding a horse on mars, hd, dramatic lighting",
+        steps: 50,
+        guidance: 7.5
+    }
+]
