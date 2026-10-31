@@ -50,3 +50,9 @@ Be sure to use the full path of the uploaded tar file in line `#23` of `predict.
 ```python
 MODEL_CACHE_URL = "https://weights.replicate.delivery/default/playgroundai/playground-v2.5-1024px-aesthetic.tar"
 ```
+
+## License
+
+The code in this repository is licensed under the [Apache License 2.0](LICENSE).
+
+The model weights are not covered by this license. The default model, Stable Diffusion 2.1, is under the CreativeML Open RAIL++-M license; any other model you load follows its own license.
